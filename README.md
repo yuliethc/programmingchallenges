@@ -1,3 +1,3 @@
 # Programming Excercises
 
-I'm improving my programming skills by practicing, here is the collection of exercises.
+Here is the collection of exercises of challenges I've been doing.
