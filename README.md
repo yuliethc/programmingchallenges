@@ -1,3 +1,3 @@
 # Programming Excercises
 
-Here is the collection of exercises of challenges I've been doing.
+Here is the collection of programming challenges I've been doing.
