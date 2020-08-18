@@ -38,33 +38,8 @@
 // console.log(resultados);
 
 
-/*
-# Spiral fill
-# Calculate the size needed for a square matrix to hold n integers and
-# add them to the matrix counter clockwise.
-
-# You will only receive integers > 0 and < 999
-#
-#
-# Example
-#  spiralfill([1,2,3,4,5,6,7,8,9,10, 11])
-#
-#      1   0    11  10
-#      2   0    0   9
-#      3   0    0   8
-#      4   5    6   7
-# Example
-#  spiralfill(4, [1,2,3,4])
-#
-#      1 4
-#      2 3
-#
-#
-*/
-
-
 /**
- * Excercise finish by @madacol
+ * Excercise finished by @madacol
  * 
  */
 const X = 0
