@@ -11,3 +11,16 @@ const reverseSeq = n => {
   }
     return a.reverse();
   };
+
+
+  /**new way I learned */
+
+  const reverseSeq2 = n => {
+    a = [];
+    
+    for (let index = n; index >= 1; index--) {
+      a.push(index)
+  }
+    
+    return a;
+  };
