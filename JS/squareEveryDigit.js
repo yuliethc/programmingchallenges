@@ -7,13 +7,19 @@ Note: The function accepts an integer and returns an integer
  * 
  */
 
+// function squareDigits(num){
+//     let arr = Array.from(num.toString());
+//     result = [];
+    
+//       for (let index = 0; index < arr.length; index ++){
+//         result.push(Number(arr[index])**2)
+//       }
+    
+//     return Number(result.join(''));
+//   }
+
+
+/// 2022 version
 function squareDigits(num){
-    let arr = Array.from(num.toString());
-    result = [];
-    
-      for (let index = 0; index < arr.length; index ++){
-        result.push(Number(arr[index])**2)
-      }
-    
-    return Number(result.join(''));
-  }
+  return Number(num.toString().split('').map(s=>(s*s)).join(''));
+}

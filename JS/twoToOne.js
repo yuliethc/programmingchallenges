@@ -12,11 +12,11 @@ a = "abcdefghijklmnopqrstuvwxyz"
 longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
  */
 
-function longest(s1, s2) {
-    let array =  s1.concat(s2).split("");
-    let arraySorted = array.sort();
-    return array.filter((letter, index) =>(array.indexOf(letter)===index)).join("");
-  }
+// function longest(s1, s2) {
+//     let array =  s1.concat(s2).split("");
+//     let arraySorted = array.sort();
+//     return array.filter((letter, index) =>(array.indexOf(letter)===index)).join("");
+//   }
 
   
 
@@ -25,3 +25,13 @@ function longest(s1, s2) {
   /**
    * const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
    */
+
+
+//2022 version
+
+function longest(s1, s2) {
+  c=s1+s2;
+  d=new Set(c.split(""))
+  e = [...d]
+  return e.sort().join('')
+}
